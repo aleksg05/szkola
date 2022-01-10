@@ -1,0 +1,11 @@
+#!/bin/bash
+
+sudo apt update && sudo apt install -y python3-pip && sudo apt install -y git &&
+ sudo apt install -y python3-pyqt5 python3-pyqt5.qtsvg python3-pyqt5.qtwebsockets && sudo apt install -y qemu qemu-kvm qemu-utils libvirt-clients libvirt-daemon-system virtinst && 
+sudo apt install -y wireshark && curl -fsSL https://get.docker.com/ | sh && sudo apt install dynamips && cd Documents && git clone https://github.com/GNS3/ubridge && cd && sudo apt install -y libpcap-dev &&
+ cd Documents/ubridge/ && make && sudo make install &&  sudo pip3 install gns3-server && sudo pip3 install gns3-gui && sudo usermod -a -G libvirt,kvm,wireshark,docker live &&
+sudo virsh net-start default && sudo apt install -y gnome-terminal && sudo apt install megatools && megadl https://mega.nz/file/RVkGzQYD#dYiDd82B8Ze7JFIE4anZs7JlPGZVgDd0dlGA_43IDt4 && unzip Cisco\ 7200\ 153-3.XB12.zip &&
+mv Cisco\ 7200\ 153-3.XB12 /home/live/Desktop/ &&  echo NIE ZAPOMNIJ SIE WYLOGOWAC I ZALOGOWAC!!!!!!!!!!
+
+
+  
